@@ -53,6 +53,7 @@ Only missing is treated as a clear dead-link signal. Access restrictions, rate l
 - Run the audit when needed; do not schedule it as a frequent poll.
 
 The tool is a triage aid, not proof that a resource is reachable to every user or that its contents are current.
+Run it only on a catalog you trust: each URL is requested from your machine, and normal HTTP redirects are followed.
 
 ## Strict mode
 
